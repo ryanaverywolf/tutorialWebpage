@@ -1,0 +1,128 @@
+body {
+    margin: 15px;
+    background-image:url("./01-assets/jspuzzle.jpg");
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    background: black;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 50px;
+}
+
+h5 {
+    text-align: center;
+    size: 150%;
+    color: yellow;
+    width: 50vw;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+h3 {
+    color: yellow;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    font-size: 140%;
+    width: 20vw;
+    position: relative;
+    left: 5vw;
+    top: 1vh;
+    list-style-type: none;
+}
+
+a.navs {
+    color: yellow;
+    margin-left: 2vw;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+.paragraphs {
+    text-align: justify;
+    padding: 15px;
+    margin: 50px;
+    background-color: black;
+    color: yellow;
+    width: 50vw;
+    height: 15vw;
+    border-radius: 15px;
+}
+
+#sidebarWrapper {
+    float: right;
+    margin-right: 2vw;
+    width: 20vw;
+    height: 60vh;
+    text-align: center;
+}
+
+#sidebarWrapper h6 {
+    margin: 4vh auto auto auto;
+}
+
+#sidebarWrapper h3 {
+    font-weight: 100;
+    font-size: 220%;
+    position: relative;
+    top: 8vh;
+}
+
+#sidebarLinks {
+    height: 45vh;
+    width: 20vw;
+    background-color: black;
+    position: relative;
+    top: 5vh;
+    border-radius: 7px;
+    margin-top: 3vh;
+    padding-top: 1vh;
+}
+
+a.sidebarLink {
+    color: yellow;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+
+a.sidebarLink:hover {
+    color: red;
+}
+
+.sidebarTitle {
+    font-size: 120%;
+    color: yellow;
+}
+
+.sidebarList {
+    list-style-type: none;
+    font-size: 120%;
+}
+
+h3.animated {
+    animation-delay: 2s;
+    animation-iteration-count: 20;
+}
+
+footer {
+    color: yellow;
+    padding: 1vh;
+    border-radius: 10px;
+}
